@@ -237,6 +237,7 @@ boost_library(
     name = "interprocess",
     deps = [
         ":config",
+        ":cstdint",
     ],
 )
 
