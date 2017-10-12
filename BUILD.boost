@@ -234,6 +234,13 @@ boost_library(
 )
 
 boost_library(
+    name = "interprocess",
+    deps = [
+        ":config",
+    ],
+)
+
+boost_library(
     name = "intrusive",
     deps = [
         ":assert",
