@@ -238,8 +238,9 @@ boost_library(
     deps = [
         ":config",
         ":cstdint",
-        ":move",
+        ":core",
         ":intrusive",
+        ":move",
     ],
 )
 
