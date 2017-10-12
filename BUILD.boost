@@ -243,6 +243,7 @@ boost_library(
         ":intrusive",
         ":move",
         ":type_traits",
+        ":utility",
     ],
 )
 
