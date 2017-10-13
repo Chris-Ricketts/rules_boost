@@ -235,7 +235,6 @@ boost_library(
 
 boost_library(
     name = "interprocess",
-    defines = ["BOOST_DATE_TIME_NO_LIB"],
     deps = [
         ":config",
         ":container",
