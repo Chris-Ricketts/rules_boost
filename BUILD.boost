@@ -240,6 +240,7 @@ boost_library(
         ":container",
         ":core",
         ":cstdint",
+        ":date_time",
         ":intrusive",
         ":move",
         ":type_traits",
